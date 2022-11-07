@@ -17,6 +17,9 @@ name.add_item_to_cart(rice)
 name.add_item_to_cart(chicken)
 name.add_item_to_cart(cucumber)
 
+#see items in cart
+name.see_items_in_cart()
+
 #find total 
 total = name.cart.calculate_cart_total()
 print ("The total for", name.customer_name, "is", total, "!")

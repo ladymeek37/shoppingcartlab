@@ -10,6 +10,7 @@ class Customer:
         print (self.customer_name, "added", product.name, "to their cart" )
 
     def see_items_in_cart(self):
+        print ("Items in cart:")
         for product in self.cart.products:
             print (product.name)
 
